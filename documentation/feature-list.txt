@@ -1,0 +1,49 @@
+TODO Features:
+
+Generation of following
+
+1. Domain Model
+2. Integration Endpoints (REST) or SOAP optionally
+3. Payloads (Inbound and Outbound) For endpoints (with validations)
+4. Transaction Script ( to decide either activity diagram or sequence diagram)
+5. Code formatter
+
+------ later stage ------------------------------------------
+5. docker images
+6. git 
+7. concurrency on transaction script
+8. C.I (jenkins) and scripting 
+9. Sandbox Server to test the application.
+10. Swagger UI
+11. Benchmark testing.
+12. Junit for code coverage on generated code.
+13. separate generated code and non-generated code.
+14. Load balancing.
+
+Platform service (Cross cutting concerns)
+
+1. CRUD Utility
+2. Interceptor for Logging, and exception handling.
+3. Domain Neutral Components / *TODO decide if they are generated models.
+4. Multitenancy capability
+5. Enforce Business validations
+6. Security
+7. Performance
+8. Scalability
+
+
+
+Generation Stack 
+1. Enterprise Application (JEE or optionally spring at later stage)
+2. Enterprise Application Integration (Support SOAP, REST, JMS *at later stage)
+3. Mobile (Android and IOS)
+
+
+Database * for now rely on JPA to handle the abstraction of physical target RDBMS
+
+Other 
+1. XML / XMI abstractions
+2. JAXB convertors.
+
+
+Governance 
